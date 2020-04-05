@@ -11,4 +11,4 @@ The main intended use of this program is to be embedded in an XML payload. [You 
 
 You could also compile this and run it if you want; it's how I tested it. I'm not sure why you'd want to use that though because existing shells written in c would run almsot anywhere already.
 
-### Note: this shell is not encrypted. it's possible (and quite simple) to use encryption 
+### Note: this shell is not encrypted. it's possible (and quite simple) to use encryption though if necessary
