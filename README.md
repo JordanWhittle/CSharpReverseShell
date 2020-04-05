@@ -9,6 +9,6 @@ The code uses fully-qualified names (such as System.Net.Sockets.TcpClient) every
 # Usage
 The main intended use of this program is to be embedded in an XML payload. [You can take an example payload from here](https://github.com/JordanWhittle/CSharpReverseShell/blob/master/ReverseShell/Payload.xml). I call it an example payload because although it is a working payload, I have only tested it on the box that I wrote it for.
 
-You could also compile this and run it if you want; it's how I tested it. I'm not sure why you'd want to use that though because existing shells written in c would run almsot anywhere already.
+You could also compile this and run it if you want; it's how I tested it. I'm not sure why you'd want to use that though because existing shells written in c would run almost anywhere already.
 
 ### Note: this shell is not encrypted. it's possible (and quite simple) to use encryption though if necessary
