@@ -4,7 +4,7 @@ A simple reverse shell I created after I learned about [this vulnerability](http
 
 There are many explanations of this vulnerability but I didn't find a reverse shell payload for it. Dropping a web shell onto the box seems pointless when you can just have it provide you with a reverse shell.
 
-The code uses fully-qualified names (such as System.Net.Sockets.TcpClient) everywhere so that no using statements are needed. This means that the contents of ReverseShell.cs can be pasted in as your xml payload without modification.
+The code uses fully-qualified names (such as System.Net.Sockets.TcpClient) everywhere so that no using statements are needed. This means that the contents of [ReverseShell.cs](https://github.com/JordanWhittle/CSharpReverseShell/blob/master/ReverseShell/ReverseShell.cs) can be pasted in as your xml payload without modification.
 
 # Usage
 The main intended use of this program is to be embedded in an XML payload. [You can take an example payload from here](https://github.com/JordanWhittle/CSharpReverseShell/blob/master/ReverseShell/Payload.xml). I call it an example payload because although it is a working payload, I have only tested it on the box that I wrote it for.
