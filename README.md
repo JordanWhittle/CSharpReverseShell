@@ -12,3 +12,7 @@ The main intended use of this program is to be embedded in an XML payload. [You 
 You could also compile this and run it if you want; it's how I tested it. I'm not sure why you'd want to use that though because existing shells written in c would run almost anywhere already.
 
 ### Note: this shell is not encrypted. it's possible (and quite simple) to use encryption though if necessary
+
+Kindly, contact me on any of the below:
+Discord: adspirit#2405
+Email: ad_spirit@live.com
